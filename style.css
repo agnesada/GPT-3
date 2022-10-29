@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.body-bg{
+    background-color: #040C18;
+}
+
+.brand{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+.nav-text{
+    color: #fff;
+    font-size: 15px;
+}
+
+.nav-btn-S{
+    outline: none;
+    border: none;
+    padding: 12px 45px;
+    background-color: #FF4820;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-btn-L{
+    outline: none;
+    border: none;
+    padding: 12px 45px 12px 0;
+    background: transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero-image{
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .hero-image{
+        margin-top: 20%;
+    } 
+}
+
+.cta-text{
+    font-size: 52px;
+    font-weight: 600;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.supporting-text{
+    color: #81AFDD;
+    font-weight: 300;
+}
+
+.head-margin{
+    margin-top: 8%;
+}
+
+.cta-email{
+    outline: none;
+    box-shadow: none;
+    padding: 20px 20px;
+    width: 65%;
+    border: none;
+    background-color: #052D56;
+    border-radius: 5px 0 0 5px;
+    color: #3D6184;
+    
+}
+
+
+.cta-btn{
+    outline: none;
+    border: none;
+    padding: 20px 51px;
+    background-color: #FF4820;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: -5;
+}
+
+
+@media screen and (max-width: 780px) {
+    .cta-btn{
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 50px;
+        border-radius: 5px 5px;
+        font-weight: 800;
+    }
+    .cta-email{
+        width: 100%;
+        border-radius: 5px 5px;
+    }
+
+    br{
+        display: none;
+    }
+    
+}
+
+.image-set{
+    width: 150px;
+}
+
+.form-text{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 14%;
+}
+
+.image-set-text{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .form-text{
+       text-align: center;
+       margin-top: 100%; 
+       margin-left: 12%;
+    }
+    .image-set{
+        width: 100%;
+    } 
+}
+
+.logo-image{
+    width: 50%;
+    
+}
+
+.logos-centre{
+    margin-top: 10%;
+    text-align: center; 
+}
+
+@media screen and (max-width: 780px) {
+    .logo-image{
+        width: 100%;
+    } 
+}
+
+
+
+.bed-bg{
+    background-color: #042C54;
+    margin-top: 100px;
+}
+
+.side-text, .card-text{
+    font-size: 16px;
+    color: #81AFDD;
+    margin-top: 20px;
+}
+
+.image-line{
+    width: 10%;
+}
+
+.grad-text{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h4-WIGPT-3{
+    color: #fff;
+}
+
+.mini-grad{
+    color: #FF8A71;
+}
+
+.card-h5{
+    color: #fff;
+    
+}
+
+.card-card{
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 780px) {
+    .bed-bg{
+        margin-top: 10%;
+    }
+    .grad-text{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .side-text{
+        margin-bottom: 0;
+    }
+    .card-card{
+        margin-top: 30px;
+    }
+    .card-item{
+        margin-bottom: 15%;
+        
+    }
+    .image-wigpt{
+        margin-top: 10%;
+    }
+}
+
+.supporting-text2{
+    color: #81AFDD;
+    font-weight: 300;
+}
+
+.cta-text2{
+    font-size: 38px;
+    font-weight: 400;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.GT1{
+    margin-top: 90px
+}
+
+.GT2{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 780px) {
+    .GT1 {
+        margin-top: 10%;
+    }
+}
+
+.section4-image{
+    width: 100%;
+}
+
+.supporting-text3{
+    color: #71E5FF;
+    font-weight: 300;
+}
+
+.supporting-text4{
+    color: #FF8A71;
+    font-weight: 300;
+}
+
+.head-margin2{
+    margin-top: 17%;
+}
+
+.bg-color{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    border-radius: 6px;
+    margin-top: 9%;
+}
+
+.head{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 780px) {
+    .bg-color {
+        align-items: center;
+    }
+}
+
+.section4-btn{
+    padding: 10px 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: rgba(4, 4, 4, 0.888);
+    border-radius: 100px;
+    margin-top: 20%;
+}
+
+.margin-t{
+    margin-top: 10%;
+} 
+
+@media screen and (max-width: 780px) {
+    .section4-btn {
+        width: 100%;
+        font-weight: 800;
+    }
+    .column-reverse{
+        flex-direction: column-reverse;
+    }
+    .head-margin2{
+        margin-top: 0;
+        margin-bottom: 12%;
+    }
+    .section4-image {
+        margin-bottom: 10%;
+    }
+}
+
+.card1{
+    width: 100%;
+}
+
+.para-item{
+    font-size: 20px;
+    
+}
+
+.card-body{
+    background-color: #042C54;
+    color: #fff;
+}
+
+.date{
+    font-size: 12px;
+}
+
+.main-row{
+    margin-top: 10%;
+}
+
+.div2{
+    margin-top: 5%;
+}
+
+.para-text{
+    font-size: 11px;
+    margin-top: 114%;
+}
+
+@media screen and (max-width: 780px) {
+    .para-text{
+        margin-top: 15%;
+    }
+}
+
+.para-text2{
+    font-size: 11px;
+    margin-top: 15%;
+    
+}
+
+.para-text3{
+    font-size: 11px;
+    margin-top: 15%;
+    
+}
+
+.para-text4{
+    font-size: 11px;
+    margin-top: 15%;
+    
+}
+
+.para-text5{
+    font-size: 11px;
+    margin-top: 15%;
+    
+}
+
+.footer-bg{
+    
+}
+
+.GPT-footer{
+    margin-top: 12%;
+    background-color: #031B34;
+    padding-top: 8%;
+}
+
+.footer-cta{
+    text-align: center;
+}
+
+.footer-btn{
+    border: 1px 1px;
+    border-color: #fff;
+    padding: 20px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: transparent;
+    color: #fff;
+}
+
+.footer-brand{
+    color: #fff;
+    font-weight: 800;
+
+}
+
+.supporting-text-footer, .Links, .Qlinks{
+    color: #fff;
+}
+
+.Links{
+    font-weight: 500;
+}
+
+.copyright{
+    text-align: center;
+    color: #fff;
+    margin-top: 8%;
+}
+
+.footer-sextion2{
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 780px) {
+    .footer-cta{
+        margin-top: 20%;
+        font-size: 16px;
+        margin-bottom: 20%;
+    } 
+    .text-card-footer{
+        text-align: center;
+    }
+}
